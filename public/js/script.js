@@ -17,7 +17,7 @@ if (navigator.geolocation) {
   );
 }
 
-const map = L.map("map").setView([0, 0], 10);
+const map = L.map("map").setView([0, 0], 15);
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution: "Live Tracker (Rahul Joshi)",
 }).addTo(map);
